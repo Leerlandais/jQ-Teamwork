@@ -56,7 +56,8 @@
 </div>        
 <?php include ("../view/cdn/jsBS.php") ?>
 <script src="js/script.js"></script>
-<script src="js/funstuff.js"></script>
+<script src="js/nextpage
+.js"></script>
 </body>
 
 </html>

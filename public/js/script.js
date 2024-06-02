@@ -1,4 +1,5 @@
 
+/*
 window.addEventListener('resize', displayScreenWidth); 
 function displayScreenWidth() { 
     if (document.getElementById("screenwidth")) {
@@ -8,7 +9,7 @@ function displayScreenWidth() {
 }
 }
 displayScreenWidth();
-
+*/
 
 // Ceci s'occupe de l'entierté du texte sur le site
 $(document).ready(function() {
