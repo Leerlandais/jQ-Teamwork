@@ -93,4 +93,9 @@ Et je serai là pour t'aider à chaque étape, si besoin (je pense que tu t'en s
 
 */
 
-// Tevin passed by
+/* 
+
+I have indeed did it fine, hehe.
+Just a small comment for the 'push' check out 
+
+*/
