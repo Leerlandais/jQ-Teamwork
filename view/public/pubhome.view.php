@@ -128,6 +128,7 @@
                     <?php include ("inc/footer.public.php"); ?>
                 </div>        
                 <?php include ("../view/cdn/jsBS.php") ?>
+                <script src="../cdn/jQUi-cdn.js"></script>
                 <script src="js/script.js"></script>
                 <script src="js/homepage.js"></script>
             </body>

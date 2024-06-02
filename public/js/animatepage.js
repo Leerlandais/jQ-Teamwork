@@ -2,6 +2,8 @@
 
 $(document).ready(function() {
 
+    $("#resetWindowButtonD0").hide();
+
 $('#activateCodeButton-Up').click(function() {
     $(".animateButtons").prop("disabled", true);
     $('#codeDescSpanD0').animate({top : "-=100px"}, 1000).queue(function(next){
@@ -45,30 +47,17 @@ $('#activateCodeButton-Full').click(function() {
     }).animate({backgroundColor : "black", width : '0%', height : "0%"},1000).queue(function(next) {
         $(this).text("");
         $(this).prop("disabled", false);
+        $('#resetWindowButtonD0').fadeIn(2000);
         next();
     });
 });
 
 
-// Example 3 :
-$('#activateCodeButton3').click(function(){
-    $(this).prop("disabled", true);
-    // while trying to get this to work properly, a thorough search of docs shows a better way to write the queue....
-    $textHolder = $("#codeDescSpan3").text(); 
-
-    $("#codeDescSpan3").text("D'abord, mon text change").delay(1000).queue(function(next){ // change the text and wait
-        $(this).text("Puis ma couleur..."); // then the colour
-        next();
-        // note the next step is attached
-    }).animate({color: "green"}, 2000).delay(2000).queue(function(next){
-        $(this).text("Et maintenant je change de couleur encore une fois");
-        next();
-        // as is this one
-    }).animate({color: "#d9e2ef"}, 2000).queue(function(next){
-        $(this).text("Et nous nous arrêterons ici");
-        next();
-    });
-    
+$("#resetWindowButtonD0").click(function() {
+    console.log('clicked');
+    $(".animateButtons").prop("disabled", false);
+    $('#codeDescSpanD0').removeAttr("style");
+    $(this).fadeOut();
 });
 
 

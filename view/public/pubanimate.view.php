@@ -59,7 +59,7 @@
                         </div>
                         
                         <div class="mt-1 mb-2 p-5 border rounded-3 text-center codeWindowAnimate d-flex align-items-center justify-content-center">
-                            <span class="codeDescSpan" id="codeDescSpanD0"></span>
+                            <span class="codeDescSpan d-flex align-items-center justify-content-center" id="codeDescSpanD0"></span>
                         </div>
 
                         <div class="mt-3 d-flex flex-column align-items-center">
@@ -70,7 +70,7 @@
                                 <button class="btn btn-secondary text-white animateButtons" id="activateCodeButton-Right"></button>
                             </div>
                             <button class="btn btn-secondary text-white animateButtons" id="activateCodeButton-Down"></button>                                                    
-                            <!-- <button class="btn btn-primary resetWindowButton" id="resetWindowButtonD0"></button> -->
+                             <button class="btn btn-primary mt-3 resetWindowButton" id="resetWindowButtonD0"></button>
                         </div>
 
                     </div>
