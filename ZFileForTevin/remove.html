@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <img id="wanderer" src="image/f19e24710cd393a22df08abaaa133b70.jpg" width="400px">
+
+    <p>You hate him, right? Wouldn't you want to...</p>
+
+    <button id="killButton">Erase him</button>
+
+    <script>
+        $(document).ready(function(){
+            $('#killButton').click(function(){
+                $('#wanderer').remove();
+            });
+        });
+    </script>
+    
+</body>
+</html>
