@@ -52,6 +52,25 @@
        
 
 
+                    <!-- EXE B0 - Basic Toggle -->
+                    <div class="container pt-5 codeWindowHolder d-flex flex-column justify-content-center align-items-center">
+                        <div class="row text-center">
+                            <p class="h5" id="exeB0heading"></p><!-- Mettre le titre ici -->
+                            <p class="h6 fst-italic" id="exeCodeSnipB0"></p><!-- le morceau de code ici (exemple : .fadeOut()) -->
+                        </div>
+                        <div class="mt-1 mb-2 p-5 border rounded-3 text-center codeWindowInner"> 
+                            <span class="codeDescSpan" id="codeDescSpanB0"></span> <!-- Le texte au mileu de la fenêtre -->
+                        </div>
+                        <div class="mt-3">
+                            <button class="btn btn-secondary text-white activateCodeButton" id="activateCodeButtonB0"></button>
+                            <button class="btn btn-primary resetWindowButton" id="resetWindowButtonB0"></button>
+                        </div>
+                    </div>
+
+
+
+
+
 <?php include ("inc/footer.public.php"); ?>
 </div>        
 <?php include ("../view/cdn/jsBS.php") ?>
