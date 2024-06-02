@@ -26,6 +26,8 @@ body {
   
 }
 
+
+
 .langEN {
   background-image: url("../img/gb.svg");
   background-size: cover;
@@ -51,3 +53,39 @@ body {
   all: revert;
 }
 
+
+.codeWindowAnimate{
+  width: 50%;
+  height: 500px;
+  background-color: wheat;
+}
+
+#codeDescSpanD0 {
+  width: 50px;
+  height: 50px;
+  background-color: green;
+  position: relative;
+}
+
+.animateButtons {
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+}
+
+#activateCodeButton-Up {
+background-image: url("../img/arrow-up.svg");
+}
+
+#activateCodeButton-Down {
+background-image: url("../img/arrow-down.svg");  
+}
+#activateCodeButton-Left {
+background-image: url("../img/arrow-left.svg");  
+}
+#activateCodeButton-Right {
+background-image: url("../img/arrow-right.svg"); 
+}
+#activateCodeButton-Full {
+  background-image: url("../img/arrows-fullscreen.svg");
+}
