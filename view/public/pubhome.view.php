@@ -59,7 +59,7 @@
                         <p class="h5" id="exe0heading"></p>
                         <p class="h6 fst-italic" id="exeCodeSnip0"></p>
                     </div>
-                    <div class="mt-1 mb-2 p-5 border rounded-3 text-center">
+                    <div class="mt-1 mb-2 p-5 border rounded-3 text-center codeWindowInner">
                         <span class="codeDescSpan" id="codeDescSpan0"></span>
                     </div>
                     <div class="mt-3">
@@ -74,7 +74,7 @@
                         <p class="h5" id="exe1heading"></p>
                         <p class="h6 fst-italic" id="exeCodeSnip1"></p>
                     </div>
-                    <div class="mt-1 mb-2 p-5 border rounded-3 text-center">
+                    <div class="mt-1 mb-2 p-5 border rounded-3 text-center codeWindowInner">
                         <span class="codeDescSpan" id="codeDescSpan1"></span>
                     </div>
                     <div class="mt-3">
@@ -93,7 +93,7 @@
                             <p class="h5" id="exe2heading"></p>
                             <p class="h6 fst-italic" id="exeCodeSnip2"></p>
                         </div>
-                        <div class="mt-1 mb-2 p-5 border rounded-3 text-center">
+                        <div class="mt-1 mb-2 p-5 border rounded-3 text-center codeWindowInner">
                             <span class="codeDescSpan" id="codeDescSpan2"></span>
                         </div>
                         <div class="mt-3">
@@ -108,7 +108,7 @@
                             <p class="h5" id="exe3heading"></p>
                             <p class="h6 fst-italic" id="exeCodeSnip3"></p>
                         </div>
-                        <div class="mt-1 mb-2 p-5 border rounded-3 text-center">
+                        <div class="mt-1 mb-2 p-5 border rounded-3 text-center codeWindowInner">
                             <span class="codeDescSpan" id="codeDescSpan3"></span>
                         </div>
                         <div class="mt-3">

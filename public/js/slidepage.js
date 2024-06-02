@@ -1,4 +1,63 @@
-// tomorrow is another day ;)
+
+$(document).ready(function() {
+
+$('#codeDescSpanB1-2').hide();
+$("#codeDescSpanB3-2").hide();
+
+// Example B0 :
+$('#activateCodeButtonB0').click(function(){
+    console.log('clicked');
+    $("#codeDescSpanB0").toggle(); 
+});
+
+// Example B1 :
+$('#activateCodeButtonB1').click(function(){
+    console.log('clicked');
+    $("#codeDescSpanB1").slideToggle(1000); 
+    $("#codeDescSpanB1-2").slideToggle(1000);
+});
+
+// Example B2 :
+$('#activateCodeButtonB2').click(function(){
+    console.log('clicked');
+    $("#codeDescSpanB2").fadeIn(1000); 
+});
+$('#activateCodeButtonB2-2').click(function(){
+    console.log('clicked');
+    $("#codeDescSpanB2").fadeOut(1000); 
+});
+
+// Example B3 :
+$('#activateCodeButtonB3').click(function(){
+    console.log('clicked');
+    $("#codeDescSpanB3").fadeToggle(1000); 
+});
+$('#activateCodeButtonB3').click(function(){
+    console.log('clicked');
+    $("#codeDescSpanB3-2").fadeToggle(1000); 
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}); // end ready
 
 /*
 

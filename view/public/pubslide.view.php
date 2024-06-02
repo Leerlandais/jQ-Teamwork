@@ -49,9 +49,69 @@
                 ?>        
         <?php include("inc/navbar.public.php"); ?>
 
+                    <!-- EXE B0 - Basic Toggle -->
+                    <div class="container pt-5 codeWindowHolder d-flex flex-column justify-content-center align-items-center">
+                        <div class="row text-center">
+                            <p class="h5" id="exeB0heading"></p>
+                            <p class="h6 fst-italic" id="exeCodeSnipB0"></p>
+                        </div>
+                        <div class="mt-1 mb-2 p-5 border rounded-3 text-center codeWindowInner">
+                            <span class="codeDescSpan" id="codeDescSpanB0"></span>
+                        </div>
+                        <div class="mt-3">
+                            <button class="btn btn-secondary text-white activateCodeButton" id="activateCodeButtonB0"></button>
+                        <!--    <button class="btn btn-primary resetWindowButton" id="resetWindowButtonB0"></button>  Pas besoin de Reset pour .toggle() -->
+                        </div>
+                    </div>
 
 
+                    <!-- EXE B1 - Slide Toggle -->
+                    <div class="container pt-5 codeWindowHolder d-flex flex-column justify-content-center align-items-center">
+                        <div class="row text-center">
+                            <p class="h5" id="exeB1heading"></p>
+                            <p class="h6 fst-italic" id="exeCodeSnipB1"></p>
+                        </div>
+                        <div class="mt-1 mb-2 p-5 border rounded-3 text-center codeWindowInner">
+                            <span class="codeDescSpan" id="codeDescSpanB1"></span><br>
+                            <span class="codeDescSpan" id="codeDescSpanB1-2"></span>
+                        </div>
+                        <div class="mt-3">
+                            <button class="btn btn-secondary text-white activateCodeButton" id="activateCodeButtonB1"></button>
+                        <!--    <button class="btn btn-primary resetWindowButton" id="resetWindowButtonB1"></button>   -->
+                        </div>
+                    </div>
 
+                    <!-- EXE B2 - FadeIn/Out -->
+                    <div class="container pt-5 codeWindowHolder d-flex flex-column justify-content-center align-items-center">
+                        <div class="row text-center">
+                            <p class="h5" id="exeB2heading"></p>
+                            <p class="h6 fst-italic" id="exeCodeSnipB2"></p>
+                        </div>
+                        <div class="mt-1 mb-2 p-5 border rounded-3 text-center codeWindowInner">
+                            <span class="codeDescSpan" id="codeDescSpanB2"></span>
+                        </div>
+                        <div class="mt-3">
+                            <button class="btn btn-secondary text-white" id="activateCodeButtonB2-2"></button>
+                            <button class="btn btn-secondary text-white" id="activateCodeButtonB2"></button>
+                        <!--    <button class="btn btn-primary resetWindowButton" id="resetWindowButtonB2"></button>   -->
+                        </div>
+                    </div>
+
+                    <!-- EXE B3 - FadeToggle -->
+                    <div class="container pt-5 codeWindowHolder d-flex flex-column justify-content-center align-items-center">
+                        <div class="row text-center">
+                            <p class="h5" id="exeB3heading"></p>
+                            <p class="h6 fst-italic" id="exeCodeSnipB3"></p>
+                        </div>
+                        <div class="mt-1 mb-2 p-5 border rounded-3 text-center codeWindowInner">
+                            <span class="codeDescSpan" id="codeDescSpanB3"></span><br>
+                            <span class="codeDescSpan" id="codeDescSpanB3-2"></span>
+                        </div>
+                        <div class="mt-3">
+                            <button class="btn btn-secondary text-white" id="activateCodeButtonB3"></button>
+                        <!--    <button class="btn btn-primary resetWindowButton" id="resetWindowButtonB3"></button>   -->
+                        </div>
+                    </div>
         
         
         

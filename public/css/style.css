@@ -20,6 +20,12 @@ body {
   font-family: HVNRoman;
 }
 
+.codeWindowInner {
+  width: 450px;
+  height: 150px;
+  
+}
+
 .langEN {
   background-image: url("../img/gb.svg");
   background-size: cover;
