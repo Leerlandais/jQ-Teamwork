@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.1
+-- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1:3306
--- Generation Time: Jun 03, 2024 at 05:43 AM
--- Server version: 8.2.0
--- PHP Version: 8.2.13
+-- Hôte : 127.0.0.1:3306
+-- Généré le : lun. 03 juin 2024 à 09:19
+-- Version du serveur : 8.0.31
+-- Version de PHP : 8.2.0
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,13 +18,13 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `jquery_exe`
+-- Base de données : `jquery_tevin`
 --
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `jq_text`
+-- Structure de la table `jq_text`
 --
 
 DROP TABLE IF EXISTS `jq_text`;
@@ -36,10 +36,10 @@ CREATE TABLE IF NOT EXISTS `jq_text` (
   `jq_text_type` varchar(8) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL DEFAULT 'id',
   `jq_text_lock` tinyint(1) NOT NULL DEFAULT '0',
   PRIMARY KEY (`jq_text_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=49 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=52 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `jq_text`
+-- Déchargement des données de la table `jq_text`
 --
 
 INSERT INTO `jq_text` (`jq_text_id`, `jq_text_element`, `jq_text_en`, `jq_text_fr`, `jq_text_type`, `jq_text_lock`) VALUES
@@ -82,7 +82,10 @@ INSERT INTO `jq_text` (`jq_text_id`, `jq_text_element`, `jq_text_en`, `jq_text_f
 (45, 'exeB3heading', 'Of course, as with Slide, Fade can also be toggled', 'Bien sûr, comme avec Slide, Fade a également un Toggle.', 'id', 0),
 (46, 'codeDescSpanB3', 'You want me gone? So be it', 'Tu veux que je parte ? Ainsi soit-il', 'id', 0),
 (47, 'codeDescSpanB3-2', 'Where did he go?', 'Où est-il allé?', 'id', 0),
-(48, 'activateCodeButtonB3', 'Fade Toggle', 'Bascule le Fade', 'id', 0);
+(48, 'activateCodeButtonB3', 'Fade Toggle', 'Bascule le Fade', 'id', 0),
+(49, 'exeC0heading', 'Prepend is used to insert content at the beginning of an element', 'Prepend est utilisé pour insérer du contenu au début d\'un élément', 'id', 0),
+(50, 'exeCodeSnipC0', '.prepend()', '.prepend()', 'id', 0),
+(51, 'codeDescSpanC0', '...there will soon be something before me', '...il y aura bientôt quelque chose devant moi', 'id', 0);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

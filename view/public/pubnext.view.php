@@ -52,7 +52,7 @@
        
 
 
-                    <!-- EXE C0 - Basic Toggle -->
+                    <!-- EXE C0 - Prepend -->
                     <div class="container pt-5 codeWindowHolder d-flex flex-column justify-content-center align-items-center">
                         <div class="row text-center">
                             <p class="h5" id="exeC0heading"></p><!-- Mettre le titre ici -->
@@ -67,6 +67,22 @@
                         </div>
                     </div>
 
+
+                    <!-- EXE C1 - Next -->
+                    <div class="container pt-5 codeWindowHolder d-flex flex-column justify-content-center align-items-center">
+                        <div class="row text-center">
+                            <p class="h5" id="exeC1heading"></p><!-- Mettre le titre ici -->
+                            <p class="h6 fst-italic" id="exeCodeSnipC1"></p><!-- le morceau de code ici (exemple : .fadeOut()) -->
+                        </div>
+                        <div class="mt-1 mb-2 p-5 border rounded-3 text-center codeWindowInner"> 
+                            <span class="codeDescSpan" id="codeDescSpanC1"></span><br> <!-- Le texte au mileu de la fenêtre -->
+                            <span class="codeDescSpan" id="codeDescSpanC2"></span>
+                        </div>
+                        <div class="mt-3">
+                           <!-- <button class="btn btn-secondary text-white activateCodeButton" id="activateCodeButtonC1"></button> -->
+                            <button class="btn btn-primary resetWindowButton" id="resetWindowButtonC1"></button>
+                        </div>
+                    </div>
 
 
 
