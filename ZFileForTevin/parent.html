@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>jQuery Traversing Parent</title>
+
+    <script src="jquery-3.7.1.min.js"></script>
+
+</head>
+
+<body>
+
+    <span id="mother">This paragraph below is my son
+        <p>And above me is mother<p>
+    </span>
+
+    <script>
+
+        $(document).ready(function () {
+            $("p").parent().css("background-color", "pink");
+        });
+
+    </script>
+
+</body>
+
+</html>

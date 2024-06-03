@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <p>It's because you pressed the button that</p>
+
+    <button id="YouAreNext">trigger after function</button>
+
+    <script>
+        $(document).ready(function(){
+            $('#YouAreNext').click(function(){
+                $('p').after("the following text could appear")
+            })
+        })
+    </script>
+    
+</body>
+</html>
